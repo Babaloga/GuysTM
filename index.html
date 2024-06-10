@@ -7,7 +7,11 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=100vw height=100vh tabindex="-1" style="width: 100%; height: 100%; background: #7F7E7F"></canvas>
+<<<<<<< Updated upstream
     <script src="Build/Browser Test Build.loader.js"></script>
+=======
+    <script src="Build/Guys.exe.loader.js"></script>
+>>>>>>> Stashed changes
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +29,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Browser Test Build.data",
-        frameworkUrl: "Build/Browser Test Build.framework.js",
-        codeUrl: "Build/Browser Test Build.wasm",
+        dataUrl: "Build/Guys.exe.data",
+        frameworkUrl: "Build/Guys.exe.framework.js",
+        codeUrl: "Build/Guys.exe.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Babaloga",
         productName: "GuysTM",
